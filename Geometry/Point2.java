@@ -1,3 +1,4 @@
+package Geometry;
 public class Point2 {
 private double x;
 private double y; 
@@ -18,5 +19,10 @@ public void setX(double d){
 }
 public void setY(double s){
     this.y = s;
+}
+public String getShortInfo(){
+
+    return String.format("wartość x: %s, wartosć y: %s",x,y);
+    
 }
 }
